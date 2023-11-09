@@ -1,0 +1,64 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+    * {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+  }
+    /* Styles for the contact section */
+  .contact {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Styles for the container element */
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    background-color: #f0f0f0;
+    border: 1.8px solid black;
+    padding: 36px 36px;
+    text-align: center;
+    gap: 36px;
+    align-items: center;
+  }
+  
+  .container img {
+    width: 130px;
+    height: 130px; /* Fixed the typo, changed "width" to "height" */
+    border-radius: 50%;
+  }
+    </style>
+  </head>
+  <body class="contact">
+    <div class="container">
+      <img src="sania.jpg" alt="sania" width="200" height="130"/>
+      <h1>Maharani Sania Budiarti</h1>
+      <p>Mahasiswa</p>
+      <p>Hertasning</p>
+      <p>Email: maharanisania@gmail.com</p>
+      <p>Telepon: 08999999</p>
+      <p>
+        Profil Saya: aku sania jurusan sistem informasi angkatan 21<br />tentang
+        diri anda.
+      </p>
+      <button type="submit" onclick="pergiKeHalamanUtama()">
+        Pergi ke Halaman Utama
+      </button>
+    </div>
+  </body>
+  <script>
+    function pergiKeHalamanUtama() {
+      window.location.href = "homee.html";
+    }
+  </script>
+</html>
